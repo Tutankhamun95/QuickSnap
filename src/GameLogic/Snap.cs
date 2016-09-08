@@ -151,6 +151,7 @@ namespace CardGames.GameLogic
 
 			// stop the game...
 			_started = false;
+			_gamerT	imer.Stop();
 		}
 	
 		#region Snap Game Unit Tests
